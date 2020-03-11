@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="citytour.detail"
+             Title="Detail">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="imadeta.jpg" Aspect="AspectFill"></Image>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="1" Padding="30,20">
+                    
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" Padding="30,20">
+                    <Label
+                        Text=""
+                    />
+                </StackLayout>
+                
+
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
